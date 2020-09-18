@@ -64,7 +64,7 @@ You can learn about what all these folders and files are for and how to customiz
 ## Step 2: Set the File Permissions
 
 ::: tip
-If you used Composer to download Craft, you can probably safely skip this step.
+If you used `composer create-project` to download Craft, you can probably safely skip this step.
 :::
 
 For Craft to run properly, PHP needs to be able to write to the following places:
@@ -91,7 +91,7 @@ Make sure your site’s AppPool account has write permissions to these folders/f
 ## Step 3: Set a Security Key
 
 ::: tip
-If you used Composer to download Craft, you can probably safely skip this step.
+If you used `composer create-project` to download Craft, you can probably safely skip this step.
 :::
 
 Each Craft project should have a unique security key, which is shared between each of the environments that the project is installed on.
